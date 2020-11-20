@@ -7,7 +7,7 @@ class GitCommit:
     """
     A domain object representing a git commit message. The intent is
     for another program to provide these values by parsing a git repository. For
-    your purposes, you will initialize them in your tests (See AppTest.java)
+    your purposes, you will initialize them in your tests (See test_app.py)
     """
 
     # parsed from the git commit message - the human message of the commit e.g "SSD-101 implement some feature"
