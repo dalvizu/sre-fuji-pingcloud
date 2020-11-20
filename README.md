@@ -29,7 +29,7 @@ These git commits will be provided as a `GitCommit` object by another program.
 Your assignment is to write a method which returns the "issue key" in this commit: `SSD-101`,
 and a general solution to return all of the issue keys present in any git commits provided.
 
-Basically, implement this function: [App#get_jira_tickets()](https://github.com/dalvizu/devops-fuji-python/blob/master/fuji/app.py#L12)
+Basically, implement this function: [App#get_jira_tickets()](https://github.com/dalvizu/sre-fuji-pingcloud/blob/master/fuji/app.py#L17)
 
 _Note_: The string 'SSD-101' is the 'key' of a JIRA issue. JIRA is a popular ticketing system in
 software development and common in the open source community. The key of an issue is its project
