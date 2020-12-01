@@ -60,11 +60,18 @@ tests and the main application by running different commands
 
 ### AWS problem
 
-You have been provided an AWS IAM credential. You are to take your problem solution and place it in a public website.
-Create this website, registered under a domain name of your choosing, and have the contents of the website 
-include this repository, including git metadata.
+You have been provided an AWS IAM credential. You are to take your problem solution and place an
+archive of it in a public website. Create this website, registered under a domain name of your
+choosing, using the most appropriate technology you can think of.
+
+This website must include a zipped archive of your repo with any instructions you wish to provide about how
+to use or evaluate your submission.
 
 Please ensure this is not searchable by a search engine.
+
+Note your website is not required to run any python code or have any sort of API. We just want to
+see how you work with AWS, how you'd build a website with AWS, and how you'd hand off a completed
+project for others to read and use.
 
 An infrastructure as code solution is required, using a technology of your choice.
 
@@ -74,7 +81,6 @@ An infrastructure as code solution is required, using a technology of your choic
 * python3
 * pipenv
 * docker
-
 
 ### Tool installation
 
@@ -97,6 +103,6 @@ An infrastructure as code solution is required, using a technology of your choic
 
 ## Submitting:
 
-To submit your answer, solve the DevOps problem. Please do not place any solution
-in a public git repository or anywhere discoverable by a search engine, as we want to be able to
-re-use this test.
+To submit your answer, create a private repository and email that and any instructions for your final submission.
+Please do not place any solution in a public git repository or anywhere discoverable by a search engine,
+as we want to be able to re-use this test.
