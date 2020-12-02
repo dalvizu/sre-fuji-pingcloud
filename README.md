@@ -80,7 +80,9 @@ Fancy HTML not required.
 
 An infrastructure as code solution is required, using a technology of your choice.
 
-**NOTE** You will not be able to create or modify any IAM resources in this account.
+**NOTE** You will not be able to create or modify any IAM resources in this account due to security
+limitations. Your Ping contact will be able to make any necessary roles, policies, etc.. that you require,
+if you can provide reason for needing them.
 
 ## Required Tools
 
