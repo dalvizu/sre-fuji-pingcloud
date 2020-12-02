@@ -60,9 +60,12 @@ tests and the main application by running different commands
 
 ### AWS problem
 
-You have been provided an AWS IAM credential. You are to take your problem solution and place an
-archive of it in a public website. Create this website, registered under a domain name of your
-choosing, using the most appropriate technology you can think of.
+You have been provided an AWS IAM credential and a region to use in AWS. Please do not leave this region, 
+as we need clean up resources after the interview is done.
+
+The problem is to take to take the python problem solution and place an archive of it in a public website.
+Create this website,  registered under a domain name of your choosing, using the most appropriate technology
+you can think of.
 
 This website must include a zipped archive of your repo with any instructions you wish to provide about how
 to use or evaluate your submission.
@@ -73,7 +76,11 @@ Note your website is not required to run any python code or have any sort of API
 see how you work with AWS, how you'd build a website with AWS, and how you'd hand off a completed
 project for others to read and use.
 
+Fancy HTML not required.
+
 An infrastructure as code solution is required, using a technology of your choice.
+
+**NOTE** You will not be able to create or modify any IAM resources in this account.
 
 ## Required Tools
 
