@@ -10,14 +10,14 @@ class GitCommit:
     your purposes, you will initialize them in your tests (See test_app.py)
     """
 
-    # parsed from the git commit message - the human message of the commit e.g "SSD-101 implement some feature"
-    message: str
-
     # Parsed from git commit message - the git commit sha e.g "7bdf804ae1e659a19a499f21a1551f00dbc7f868"
     sha1: str
 
     # Parsed from git commit message - who created this e.g "Dan Alvizu <dalvizu@pingidentity.com>"
     author: str
+
+    # parsed from the git commit message - the human message of the commit e.g "SSD-101 implement some feature"
+    message: str
 
     # Parsed from git commit message - when this was created
     date: datetime
